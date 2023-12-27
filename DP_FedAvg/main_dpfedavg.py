@@ -23,7 +23,7 @@ if __name__ == '__main__':
 
 
     # global_rounds
-    parser.add_argument('-gr', "--global_rounds", type=int, default=150,
+    parser.add_argument('-gr', "--global_rounds", type=int, default=500,
                         help="Global Round in the DPFL")
     
     # local_iterations
@@ -54,7 +54,7 @@ if __name__ == '__main__':
                         help="client learning rate")
     
     # global learning rate
-    parser.add_argument('-glr','--global_learning_rate',type = float, default= 1,
+    parser.add_argument('-glr','--global_learning_rate',type = float, default= 0.3,
                         help='glr may different with lr')
     
     # batch_size (DP相关的使用泊松采样，这个batch size用不上了)
