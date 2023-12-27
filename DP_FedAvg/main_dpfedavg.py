@@ -23,7 +23,7 @@ if __name__ == '__main__':
 
 
     # global_rounds
-    parser.add_argument('-gr', "--global_rounds", type=int, default=500,
+    parser.add_argument('-gr', "--global_rounds", type=int, default=150,
                         help="Global Round in the DPFL")
     
     # local_iterations
